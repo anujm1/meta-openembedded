@@ -1,10 +1,17 @@
-Upstream-status: Inappriate
+From 393180915b117845ac0bfc16c20d8df1098a430b Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 2 Nov 2011 16:54:57 +0100
+Subject: [PATCH] Upstream-status: Inappriate
+
+---
+ sapi/cli/config.m4 | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/sapi/cli/config.m4 b/sapi/cli/config.m4
-index cdfa1f7..0fe11e3 100644
+index 04db2fe..7e33023 100644
 --- a/sapi/cli/config.m4
 +++ b/sapi/cli/config.m4
-@@ -36,7 +36,7 @@ if test "$PHP_CLI" != "no"; then
+@@ -53,7 +53,7 @@ if test "$PHP_CLI" != "no"; then
    esac
  
    dnl Set executable for tests
@@ -13,6 +20,3 @@ index cdfa1f7..0fe11e3 100644
    PHP_SUBST(PHP_EXECUTABLE)
  
    dnl Expose to Makefile
--- 
-1.9.3
-
